@@ -1,18 +1,23 @@
 const game = new Game();
 
 function preload() {
-    bgImage = loadImage('assets/background/backgroundImage.png');
+    game.preload();
 
 }
 
 function setup() {
     createCanvas(900, 600);
+    game.setup();
 
 }
 
 function draw() {
-    background(bgImage);
-  
+    game.draw();
+
 }
 
+function keyPressed() {
+
+    
+}
 
