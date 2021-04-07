@@ -5,3 +5,10 @@ body {
     align-items: center;
     background-color: rgb(144, 233, 85);
 }
+
+h1 {
+    color: blue;
+}
+h2 {
+    color: seagreen;
+}
