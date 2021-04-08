@@ -33,6 +33,7 @@ class Player {
         if (keyIsDown(39)) {
             this.moveRight();
         }
+        
     }
 
     jump() {
